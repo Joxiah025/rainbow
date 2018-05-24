@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rainbow Fingers</title>
+    <meta name="author" content="pearlstack">
+    <meta name="description" content="Rainbow fingers">
+    <meta name="keywords" content="news, newspaper, magazine, blog, post, article, editorial, publishing, modern, responsive, html5, template">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-stars-o.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="css/colors/theme-color-1.css" id="changeColorScheme">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="preloader bg--color-1--b" data-preloader="1">
+            <div class="preloader--inner"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header class="header--section header--style-5">
+                <div class="header--topbar bg--color-3"> 
+                    <div class="container"> 
+                        <div class="float--left float--xs-none text-xs-center">
+                            <ul class="header--topbar-social nav "> 
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul> 
+                        </div>
+                        <div class="float--right float--xs-none text-xs-center"> 
+                            <ul class="header--topbar-action nav"> 
+                                <li><a href="login.html"><i class="fa fm fa-user-o"></i>Login/Register</a></li>
+                            </ul>                           
+                        </div>
+                    </div>
+                </div>
+            <!-- <div class="header--mainbar">
+                <div class="container">
+                    <div class="header--logo text-center">
+                        <h1 class="h1"> <a href="home-1.html" class="btn-link"> <img src="img/logo.png" alt="USNews Logo"> <span class="hidden">USNews Logo</span> </a> </h1> </div>
+                    </div>
+                </div> -->
+                <div class="header--navbar navbar bd--color-1 bg--color-4" data-trigger="sticky">
+                        <div class="container">
+                            <div class="navbar-header">
+                                    <div class="header--logo text-center">
+                                            <h1 class="h1"> <a href="home-1.html" class="btn-link"> <img src="img/logo.png" alt="RF Logo" style="width:80px"> <span class="hidden">RF Logo</span> </a> </h1> </div>
+                                        </div>
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav" aria-expanded="false" aria-controls="headerNav"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                            </div>
+                            <div id="headerNav" class="navbar-collapse collapse float--left">
+                                <ul class="header--menu-links nav navbar-nav" data-trigger="hoverIntent">
+                                    <!-- <li class="active"><a href="#">Featured Stories</a></li> -->
+                                    <li class=""><a href="#">Featured Stories</a></li>
+                                    <li class=""><a href="#">Main Event</a></li>
+                                    <li class=""><a href="#">Lyrics</a></li>
+                                    <li class=""><a href="#">Community</a></li>
+                                    <li class=""><a href="#">Song Charts</a></li>
+                                    <li class=""><a href="#" >Join Us</a></li>
+                                    <!-- <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages<i class="fa flm fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<i class="fa flm fa-angle-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="blog-v1.html">Blog 1</a></li>
+                                                    <li><a href="blog-v2.html">Blog 2</a></li>
+                                                    <li><a href="blog-v3.html">Blog 3</a></li>
+                                                    <li><a href="archives-v1.html">Archives 1</a></li>
+                                                    <li><a href="archives-v2.html">Archives 2</a></li>
+                                                    <li><a href="archives-v3.html">Archives 3</a></li>
+                                                    <li><a href="tag.html">Tag</a></li>
+                                                    <li><a href="search.html">Search</a></li>
+                                                    <li><a href="author.html">Author</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">News Single<i class="fa flm fa-angle-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="news-single-v1.html">News Single 1</a></li>
+                                                    <li><a href="news-single-v2.html">News Single 2</a></li>
+                                                    <li><a href="news-single-v3.html">News Single 3</a></li>
+                                                    <li><a href="news-single-v4.html">News Single 4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Widgets<i class="fa flm fa-angle-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="ad-widgets.html">Ad Widgets</a></li>
+                                                    <li><a href="social-widgets.html">Social Widgets</a></li>
+                                                    <li><a href="subscribe-widgets.html">Subscirbe Widgets</a></li>
+                                                    <li><a href="post-widgets.html">Post Widgets</a></li>
+                                                    <li><a href="poll-widgets.html">Poll Widgets</a></li>
+                                                    <li><a href="search-widgets.html">Search Widgets</a></li>
+                                                    <li><a href="links-widgets.html">Links Widgets</a></li>
+                                                    <li><a href="tag-widgets.html">Tag Widgets</a></li>
+                                                    <li><a href="profile-widgets.html">Profile Widgets</a></li>
+                                                    <li><a href="cart-widgets.html">Cart Widgets</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributors<i class="fa flm fa-angle-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="contributors.html">Contributors 1</a></li>
+                                                    <li><a href="contributors-2.html">Contributors 2</a></li>
+                                                    <li><a href="contributors-3.html">Contributors 3</a></li>
+                                                    <li><a href="contributors-4.html">Contributors 4</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop<i class="fa flm fa-angle-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="shop-1.html">Shop 1</a></li>
+                                                    <li><a href="shop-2.html">Shop 2</a></li>
+                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                    <li><a href="cart.html">Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<i class="fa flm fa-angle-right"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="contact.html">Contact 1</a></li>
+                                                    <li><a href="contact-2.html">Contact 2</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a href="404.html">404</a></li>
+                                        </ul>
+                                    </li> -->
+                                </ul>
+                            </div>
+                            
+                            
+                            <form action="#" class="header--search-form float--right" data-form="validate">
+                                <input type="search" name="search" placeholder="Search..." class="header--search-control form-control" required>
+                                <button type="submit" class="header--search-btn btn"><i class="header--search-icon fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+        </header>
+        <div class="main-content--section pbottom--30">
+            <div class="container">
+                <div class="main--content">
+                    <div class="post--items post--items-1 pd--30-0">
+                            <div class="post--items-title" data-ajax="tab"style="border-top: none !important; color: #cf37d9 !important;"> <h2 class="h4">Featured Stories</h2> </div>
+                            <div class="row gutter--15"> <div class="col-md-3"> <div class="row gutter--15"> <div class="col-md-12 col-xs-6 col-xxs-12"> <div class="post--item post--layout-1 post--title-large"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/world-news-img/banner-01.jpg" alt="" data-rjs="2"></a> <a href="#" class="cat">Animal Planet</a> <a href="#" class="icon"><i class="fa fa-flash"></i></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Corey I. Dean</a></li><li><a href="#">20 April 2017</a></li></ul> <div class="title"> <h2 class="h4"><a href="news-single-v1.html" class="btn-link">Lorem Ipsum is simply dummy text of the printing</a></h2> </div></div></div></div></div><div class="col-md-12 col-xs-6 hidden-xxs"> <div class="post--item post--layout-1 post--title-large"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/world-news-img/banner-02.jpg" alt="" data-rjs="2"></a> <a href="#" class="cat">Accident</a> <a href="#" class="icon"><i class="fa fa-support"></i></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Corey I. Dean</a></li><li><a href="#">20 April 2017</a></li></ul> <div class="title"> <h2 class="h4"><a href="news-single-v1.html" class="btn-link">Lorem Ipsum is simply dummy text of the printing</a></h2> </div></div></div></div></div></div></div><div class="col-md-6"> <div class="post--item post--layout-1 post--title-larger"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/world-news-img/banner-03.jpg" alt="" data-rjs="2"></a> <a href="#" class="cat">Peace</a> <a href="#" class="icon"><i class="fa fa-star-o"></i></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Norma R. Hogan</a></li><li><a href="#">20 April 2017</a></li></ul> <div class="title"> <h2 class="h4"><a href="news-single-v1.html" class="btn-link">Siriyan civil war getting righteous indignation and dislike men who are so beguiled and demoralized by the sure.</a></h2> </div></div></div></div></div><div class="col-md-3"> <div class="row gutter--15"> <div class="col-md-12 col-xs-6 col-xxs-12"> <div class="post--item post--layout-1 post--title-large"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/world-news-img/banner-04.jpg" alt="" data-rjs="2"></a> <a href="#" class="cat">Discover</a> <a href="#" class="icon"><i class="fa fa-flash"></i></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Leraje</a></li><li><a href="#">20 April 2017</a></li></ul> <div class="title"> <h2 class="h4"><a href="news-single-v1.html" class="btn-link">Lorem Ipsum is simply dummy text of the printing</a></h2> </div></div></div></div></div><div class="col-md-12 col-xs-6 hidden-xxs"> <div class="post--item post--layout-1 post--title-large"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/world-news-img/banner-05.jpg" alt="" data-rjs="2"></a> <a href="#" class="cat">Education</a> <a href="#" class="icon"><i class="fa fa-book"></i></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Balam</a></li><li><a href="#">20 April 2017</a></li></ul> <div class="title"> <h2 class="h4"><a href="news-single-v1.html" class="btn-link">On the other hand, we denounce with righteous and deby</a></h2> </div></div></div></div></div></div></div></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container" data-sticky-content="true">
+                        <div class="sticky-content-inner">
+                                <div class="row">
+                                        <div class="col-md-12 ptop--30 pbottom--30"> 
+                                            <div class="post--items-title" data-ajax="tab"> 
+                                                <h2 class="h4">Song Stories</h2> 
+                                                    <div class="nav"> 
+                                                        <a href="#" class="prev btn-link" data-ajax-action="load_prev_food_resturent_posts"> 
+                                                            <i class="fa fa-long-arrow-left"></i> 
+                                                        </a> 
+                                                        <span class="divider">/</span> 
+                                                        <a href="#" class="next btn-link" data-ajax-action="load_next_food_resturent_posts"> 
+                                                            <i class="fa fa-long-arrow-right"></i> 
+                                                        </a> 
+                                                    </div>
+                                            </div>
+                                            <div class="post--items" data-ajax-content="outer"> 
+                                                <ul class="nav row gutter--15" data-ajax-content="inner"> 
+                                                    <li class="col-md-3 col-xs-6 col-xxs-12"> 
+                                                        <div class="post--item post--layout-1"> 
+                                                            <div class="post--img"> 
+                                                                <a href="news-single-v1.html" class="thumb">
+                                                                    <img src="img/home-img/food-and-resturent-01.jpg" alt="" data-rjs="2">
+                                                                </a> 
+                                                                <div class="post--info"> 
+                                                                    <ul class="nav meta"> 
+                                                                        <li><a href="#">Astaroth</a></li>
+                                                                        <li><a href="#">Yeasterday 03:52 pm</a></li>
+                                                                    </ul> 
+                                                                    <div class="title"> 
+                                                                        <h3 class="h4">
+                                                                            <a href="news-single-v1.html" class="btn-link">
+                                                                                It is a long established fact that a reader will be distracted by
+                                                                            </a>
+                                                                        </h3> 
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-xs-12 hidden shown-xxs"> <hr class="divider"> </li>
+                                                    <li class="col-md-3 col-xs-6 col-xxs-12"> <div class="post--item post--layout-1"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/home-img/food-and-resturent-02.jpg" alt="" data-rjs="2"></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Astaroth</a></li><li><a href="#">Yeasterday 03:52 pm</a></li></ul> <div class="title"> <h3 class="h4"><a href="news-single-v1.html" class="btn-link">It is a long established fact that a reader will be distracted by</a></h3> </div></div></div></div></li>
+                                                    <li class="col-md-3 hidden-sm hidden-xs"> <div class="post--item post--layout-1"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/home-img/food-and-resturent-03.jpg" alt="" data-rjs="2"></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Astaroth</a></li><li><a href="#">Yeasterday 03:52 pm</a></li></ul> <div class="title"> <h3 class="h4"><a href="news-single-v1.html" class="btn-link">It is a long established fact that a reader will be distracted by</a></h3> </div></div></div></div></li>
+                                                    <li class="col-md-3 hidden-sm hidden-xs"> <div class="post--item post--layout-1"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/home-img/food-and-resturent-03.jpg" alt="" data-rjs="2"></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Astaroth</a></li><li><a href="#">Yeasterday 03:52 pm</a></li></ul> <div class="title"> <h3 class="h4"><a href="news-single-v1.html" class="btn-link">It is a long established fact that a reader will be distracted by</a></h3> </div></div></div></div></li>
+                                                </ul> 
+                                                <div class="preloader bg--color-0--b" data-preloader="1"> 
+                                                    <div class="preloader--inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 ptop--30 pbottom--30"> 
+                                            <div class="post--items-title" data-ajax="tab"> 
+                                                <h2 class="h4">Video Series</h2> 
+                                                <div class="nav"> 
+                                                    <a href="#" class="prev btn-link" data-ajax-action="load_prev_audio_video_posts"> 
+                                                        <i class="fa fa-long-arrow-left"></i> 
+                                                    </a> 
+                                                    <span class="divider">/</span> 
+                                                    <a href="#" class="next btn-link" data-ajax-action="load_next_audio_video_posts"> 
+                                                        <i class="fa fa-long-arrow-right"></i> 
+                                                    </a> 
+                                                </div>
+                                            </div>
+                                            <div class="post--items post--items-4" data-ajax-content="outer"> 
+                                                <ul class="nav row" > 
+                                                    <li class="col-md-8"> 
+                                                        <div class="post--item post--layout-1 post--type-video post--title-large"> 
+                                                            <div class="post--img"> 
+                                                                <a href="news-single-v1.html" class="thumb">
+                                                                    <img src="img/home-img/audio-video-01.jpg" alt="" data-rjs="2">
+                                                                </a> 
+                                                                <a href="#" class="cat">Wave</a> 
+                                                                <a href="#" class="icon"><i class="fa fa-eye"></i></a> 
+                                                                <div class="post--info"> 
+                                                                    <ul class="nav meta"> 
+                                                                        <li><a href="#">Succubus</a></li>
+                                                                        <li><a href="#">Today 03:52 pm</a></li>
+                                                                    </ul> 
+                                                                    <div class="title"> 
+                                                                        <h2 class="h4"><a href="news-single-v1.html" class="btn-link">Standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum</a></h2> 
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr class="divider hidden-md hidden-lg"> 
+                                                    </li>
+                                                    <li class="col-md-4" data-ajax-content="inner"> 
+
+                                                        <ul class="nav"> 
+                                                            <li> 
+                                                                <div class="post--item post--type-audio post--layout-3"> 
+                                                                    <div class="post--img"> 
+                                                                        <a href="news-single-v1.html" class="thumb">
+                                                                            <img src="img/home-img/audio-video-02.jpg" alt="" data-rjs="2">
+                                                                        </a> 
+                                                                        <div class="post--info"> 
+                                                                            <ul class="nav meta"> 
+                                                                                <li><a href="#">Maclaan John</a></li>
+                                                                                <li><a href="#">16 April 2017</a></li>
+                                                                            </ul> 
+                                                                            <div class="title"> 
+                                                                                <h3 class="h4">
+                                                                                    <a href="news-single-v1.html" class="btn-link">Long established fact that a reader will be distracted by the readable</a>
+                                                                                </h3> 
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li> <div class="post--item post--type-video post--layout-3"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/home-img/audio-video-03.jpg" alt="" data-rjs="2"></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Maclaan John</a></li><li><a href="#">16 April 2017</a></li></ul> <div class="title"> <h3 class="h4"><a href="news-single-v1.html" class="btn-link">Long established fact that a reader will be distracted by the readable</a></h3> </div></div></div></div></li>
+                                                            <li> <div class="post--item post--type-video post--layout-3"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/home-img/audio-video-04.jpg" alt="" data-rjs="2"></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Maclaan John</a></li><li><a href="#">16 April 2017</a></li></ul> <div class="title"> <h3 class="h4"><a href="news-single-v1.html" class="btn-link">Long established fact that a reader will be distracted by the readable</a></h3> </div></div></div></div></li>
+                                                            <li> <div class="post--item post--type-audio post--layout-3"> <div class="post--img"> <a href="news-single-v1.html" class="thumb"><img src="img/home-img/audio-video-05.jpg" alt="" data-rjs="2"></a> <div class="post--info"> <ul class="nav meta"> <li><a href="#">Maclaan John</a></li><li><a href="#">16 April 2017</a></li></ul> <div class="title"> <h3 class="h4"><a href="news-single-v1.html" class="btn-link">Long established fact that a reader will be distracted by the readable</a></h3> </div></div></div></div></li>
+                                                        </ul> 
+
+                                                        <div class="preloader bg--color-0--b" data-preloader="1" style="opacity: .7 !important;"> <div class="preloader--inner"></div></div>
+                                                    </li>
+                                                </ul> 
+                                                        
+                                                    </div>
+                                        </div>
+                                        
+                                        <div class="col-md-8 ptop--30 pbottom--30">
+                                            <div class="post--items-title" data-ajax="tab"> 
+                                                <h2 class="h4">Our Community</h2> 
+                                            </div>
+                                            <div class="content"> 
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                            <div class="action"> <a href="#" class="btn btn-primary">Become a Contributor</a> </div>
+                                            <div class="contributor--items ptop--30"> 
+                                                <ul class="nav row AdjustRow"> 
+                                                    <li class="col-md-4 col-xs-6 col-xxs-12 pbottom--30"> 
+                                                        <div class="contributor--item style--1"> 
+                                                            <div class="img"> <img src="img/contributors-img/avatar-01.jpg" alt=""> </div>
+                                                            <div class="name"> <h3 class="h4">Karla Gleichauf</h3> </div>
+                                                            <div class="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p></div>
+                                                            <!-- <ul class="social nav"> 
+                                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                            </ul> 
+                                                            <div class="action"> <a href="author.html" class="btn btn-default">Author Posts</a> </div> -->
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-4 col-xs-6 col-xxs-12 pbottom--30"> 
+                                                            <div class="contributor--item style--1"> 
+                                                                <div class="img"> <img src="img/contributors-img/avatar-01.jpg" alt=""> </div>
+                                                                <div class="name"> <h3 class="h4">Karla Gleichauf</h3> </div>
+                                                                <div class="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p></div>
+                                                                <!-- <ul class="social nav"> 
+                                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                                </ul> 
+                                                                <div class="action"> <a href="author.html" class="btn btn-default">Author Posts</a> </div> -->
+                                                            </div>
+                                                    </li>
+                                                    <li class="col-md-4 col-xs-6 col-xxs-12 pbottom--30"> 
+                                                            <div class="contributor--item style--1"> 
+                                                                <div class="img"> <img src="img/contributors-img/avatar-01.jpg" alt=""> </div>
+                                                                <div class="name"> <h3 class="h4">Karla Gleichauf</h3> </div>
+                                                                <div class="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p></div>
+                                                                <!-- <ul class="social nav"> 
+                                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                                </ul> 
+                                                                <div class="action"> <a href="author.html" class="btn btn-default">Author Posts</a> </div> -->
+                                                            </div>
+                                                        </li>
+                                                        <li class="col-md-4 col-xs-6 col-xxs-12 pbottom--30"> 
+                                                                <div class="contributor--item style--1"> 
+                                                                    <div class="img"> <img src="img/contributors-img/avatar-01.jpg" alt=""> </div>
+                                                                    <div class="name"> <h3 class="h4">Karla Gleichauf</h3> </div>
+                                                                    <div class="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p></div>
+                                                                    <!-- <ul class="social nav"> 
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                                    </ul>  -->
+                                                                    <!-- <div class="action"> <a href="author.html" class="btn btn-default">Author Posts</a> </div> -->
+                                                                </div>
+                                                        </li>
+                                                        <li class="col-md-4 col-xs-6 col-xxs-12 pbottom--30"> 
+                                                                <div class="contributor--item style--1"> 
+                                                                    <div class="img"> <img src="img/contributors-img/avatar-01.jpg" alt=""> </div>
+                                                                    <div class="name"> <h3 class="h4">Karla Gleichauf</h3> </div>
+                                                                    <div class="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p></div>
+                                                                    <!-- <ul class="social nav"> 
+                                                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                                    </ul> 
+                                                                    <div class="action"> <a href="author.html" class="btn btn-default">Author Posts</a> </div> -->
+                                                                </div>
+                                                            </li>
+                                                            <li class="col-md-4 col-xs-6 col-xxs-12 pbottom--30"> 
+                                                                    <div class="contributor--item style--1"> 
+                                                                        <div class="img"> <img src="img/contributors-img/avatar-01.jpg" alt=""> </div>
+                                                                        <div class="name"> <h3 class="h4">Karla Gleichauf</h3> </div>
+                                                                        <div class="desc"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p></div>
+                                                                        <!-- <ul class="social nav"> 
+                                                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                                                        </ul>  -->
+                                                                        <!-- <div class="action"> <a href="author.html" class="btn btn-default">Author Posts</a> </div> -->
+                                                                    </div>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="main--sidebar col-md-4 ptop--30 pbottom--30" > 
+                                            <div class="sticky-content-inner"> 
+                                                <div class="widget"> 
+                                                    <div class="widget--title"> 
+                                                        <h2 class="h4">Song Chart For The Week</h2> <i class="icon fa fa-shopping-cart"></i> 
+                                                    </div>
+                                                    <div class="cart--widget"> 
+                                                        <ul class="nav"> 
+                                                            <li class="clearfix"> 
+                                                                <div class="img"> 
+                                                                    <a href="#" class="btn-link">
+                                                                        <img src="img/shop-img/cart-item-01.jpg" alt="" data-rjs="2">
+                                                                    </a> 
+                                                                </div>
+                                                                <div class="info"> 
+                                                                    <h3 class="h4">
+                                                                        <a href="#" class="btn-link">Lorem ipsum dolor sit amet quam ipsum</a>
+                                                                    </h3> 
+                                                                    <p class="text--color-1">$69.99 * 2</p>
+                                                                </div>
+                                                                <a href="#" class="remove"><i class="fa fa-remove"></i></a> 
+                                                            </li>
+                                                            <li class="clearfix"> 
+                                                                    <div class="img"> 
+                                                                        <a href="#" class="btn-link">
+                                                                            <img src="img/shop-img/cart-item-01.jpg" alt="" data-rjs="2">
+                                                                        </a> 
+                                                                    </div>
+                                                                    <div class="info"> 
+                                                                        <h3 class="h4">
+                                                                            <a href="#" class="btn-link">Lorem ipsum dolor sit amet quam ipsum</a>
+                                                                        </h3> 
+                                                                        <p class="text--color-1">$69.99 * 2</p>
+                                                                    </div>
+                                                                    <a href="#" class="remove"><i class="fa fa-remove"></i></a> 
+                                                            </li>
+                                                            <li class="clearfix"> 
+                                                                    <div class="img"> 
+                                                                        <a href="#" class="btn-link">
+                                                                            <img src="img/shop-img/cart-item-01.jpg" alt="" data-rjs="2">
+                                                                        </a> 
+                                                                    </div>
+                                                                    <div class="info"> 
+                                                                        <h3 class="h4">
+                                                                            <a href="#" class="btn-link">Lorem ipsum dolor sit amet quam ipsum</a>
+                                                                        </h3> 
+                                                                        <p class="text--color-1">$69.99 * 2</p>
+                                                                    </div>
+                                                                    <a href="#" class="remove"><i class="fa fa-remove"></i></a> 
+                                                            </li>
+                                                            <li class="clearfix"> 
+                                                                    <div class="img"> 
+                                                                        <a href="#" class="btn-link">
+                                                                            <img src="img/shop-img/cart-item-01.jpg" alt="" data-rjs="2">
+                                                                        </a> 
+                                                                    </div>
+                                                                    <div class="info"> 
+                                                                        <h3 class="h4">
+                                                                            <a href="#" class="btn-link">Lorem ipsum dolor sit amet quam ipsum</a>
+                                                                        </h3> 
+                                                                        <p class="text--color-1">$69.99 * 2</p>
+                                                                    </div>
+                                                                    <a href="#" class="remove"><i class="fa fa-remove"></i></a> 
+                                                            </li>
+                                                            <li class="clearfix"> 
+                                                                    <div class="img"> 
+                                                                        <a href="#" class="btn-link">
+                                                                            <img src="img/shop-img/cart-item-01.jpg" alt="" data-rjs="2">
+                                                                        </a> 
+                                                                    </div>
+                                                                    <div class="info"> 
+                                                                        <h3 class="h4">
+                                                                            <a href="#" class="btn-link">Lorem ipsum dolor sit amet quam ipsum</a>
+                                                                        </h3> 
+                                                                        <p class="text--color-1">$69.99 * 2</p>
+                                                                    </div>
+                                                                    <a href="#" class="remove"><i class="fa fa-remove"></i></a> 
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer--section"> 
+            <!-- <div class="footer--widgets pd--30-0 bg--color-2"> <div class="container"> <div class="row AdjustRow" style="position: relative; height: 337px;"> <div class="col-md-3 col-xs-6 col-xxs-12 ptop--30 pbottom--30" style="position: absolute; left: 0px; top: 0px;"> <div class="widget"> <div class="widget--title"> <h2 class="h4">About Us</h2> <i class="icon fa fa-exclamation"></i> </div><div class="about--widget"> <div class="content"> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium laborum et dolorum fuga.</p></div><div class="action"> <a href="#" class="btn-link">Read More<i class="fa flm fa-angle-double-right"></i></a> </div><ul class="nav"> <li> <i class="fa fa-map"></i> <span>143/C, Fake Street, Melborne, Australia</span> </li><li> <i class="fa fa-envelope-o"></i> <a href="http://themelooks.us/cdn-cgi/l/email-protection#791c01181409151c391c01181409151c571a1614"><span class="__cf_email__" data-cfemail="eb8e938a869b878eab8e938a869b878ec5888486">[email&nbsp;protected]</span></a> </li><li> <i class="fa fa-phone"></i> <a href="tel:+123456789">+123 456 (789)</a> </li></ul> </div></div></div><div class="col-md-3 col-xs-6 col-xxs-12 ptop--30 pbottom--30" style="position: absolute; left: 292px; top: 0px;"> <div class="widget"> <div class="widget--title"> <h2 class="h4">Usefull Info Links</h2> <i class="icon fa fa-expand"></i> </div><div class="links--widget"> <ul class="nav"> <li><a href="#" class="fa-angle-right">Gadgets</a></li><li><a href="#" class="fa-angle-right">Shop</a></li><li><a href="#" class="fa-angle-right">Term and Conditions</a></li><li><a href="#" class="fa-angle-right">Forums</a></li><li><a href="#" class="fa-angle-right">Top News of This Week</a></li><li><a href="#" class="fa-angle-right">Special Recipes</a></li><li><a href="#" class="fa-angle-right">Sign Up</a></li></ul> </div></div></div><div class="col-md-3 col-xs-6 col-xxs-12 ptop--30 pbottom--30" style="position: absolute; left: 585px; top: 0px;"> <div class="widget"> <div class="widget--title"> <h2 class="h4">Advertisements</h2> <i class="icon fa fa-bullhorn"></i> </div><div class="links--widget"> <ul class="nav"> <li><a href="#" class="fa-angle-right">Post an Add</a></li><li><a href="#" class="fa-angle-right">Adds Renew</a></li><li><a href="#" class="fa-angle-right">Price of Advertisements</a></li><li><a href="#" class="fa-angle-right">Adds Closed</a></li><li><a href="#" class="fa-angle-right">Monthly or Yearly</a></li><li><a href="#" class="fa-angle-right">Trial Adds</a></li><li><a href="#" class="fa-angle-right">Add Making</a></li></ul> </div></div></div><div class="col-md-3 col-xs-6 col-xxs-12 ptop--30 pbottom--30" style="position: absolute; left: 877px; top: 0px;"> <div class="widget"> <div class="widget--title"> <h2 class="h4">Career</h2> <i class="icon fa fa-user-o"></i> </div><div class="links--widget"> <ul class="nav"> <li><a href="#" class="fa-angle-right">Available Post</a></li><li><a href="#" class="fa-angle-right">Career Details</a></li><li><a href="#" class="fa-angle-right">How to Apply?</a></li><li><a href="#" class="fa-angle-right">Freelence Job</a></li><li><a href="#" class="fa-angle-right">Be a Member</a></li><li><a href="#" class="fa-angle-right">Apply Now</a></li><li><a href="#" class="fa-angle-right">Send Your Resume</a></li></ul> </div></div></div></div></div></div> -->
+            <div class="footer--copyright bg--color-3"> <div class="social--bg bg--color-1" style="left: 1080px;"></div><div class="container"> <p class="text float--left">© 2017 <a href="#">Rainbow Fingers</a>. All Rights Reserved.</p><ul class="nav social float--right"> <li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-instagram"></i></a></li><li><a href="#"><i class="fa fa-youtube-play"></i></a></li></ul> <ul class="nav links float--right"> <li><a href="#">Home</a></li><li><a href="#">FAQ</a></li><li><a href="#">Support</a></li></ul> </div></div></footer>
+
+
+    </div>
+    <div id="stickySocial" class="sticky--right">
+            <ul class="nav">
+                <li>
+                    <a href="#"> <i class="fa fa-facebook"></i> <span>Follow Us On Facebook</span> </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fa fa-twitter"></i> <span>Follow Us On Twitter</span> </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fa fa-instagram"></i> <span>Follow Us On Instagram</span> </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fa fa-youtube-play"></i> <span>Subscribe To Our Channel</span> </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+    <div id="backToTop"> <a href="#"><i class="fa fa-angle-double-up"></i></a> </div>
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.min.js"></script>
+    <script src="js/jquery.hoverIntent.min.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/resizesensor.min.js"></script>
+    <script src="js/theia-sticky-sidebar.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/jquery.barrating.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBK9f7sXWmqQ1E-ufRXV3VpXOn_ifKsDuc"></script>
+    <!-- <script src="js/color-switcher.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>
